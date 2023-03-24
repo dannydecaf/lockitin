@@ -5,7 +5,7 @@ import HeartBrokenTwoToneIcon from '@mui/icons-material/HeartBrokenTwoTone';
 import IconButton from "@mui/material/IconButton";
 
 
-import "./SwipeButtons.css";
+import "../css/SwipeButtons.css";
 
 function SwipeButtons() {
   return (

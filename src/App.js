@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "./Header";
-import Chats from "./Chats";
-import ChatScreen from "./ChatScreen";
-import DatingCards from './DatingCards';
-import SwipeButtons from "./SwipeButtons";
+import Header from "./components/Header";
+import Chats from "./components/Chats";
+import ChatScreen from "./components/ChatScreen";
+import DatingCards from './components/DatingCards';
+import SwipeButtons from "./components/SwipeButtons";
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,7 +11,7 @@ import {
 } from "react-router-dom";
 
 
-import "./App.css";
+import "./css/App.css";
 
 function App() {
   return (
